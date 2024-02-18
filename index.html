@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My awesome portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+<div class="overlay"></div>
+<div class="site-main-wrapper">
+    <button class="hamberger">
+        <img src="./images/hamberger.svg" alt="">
+    </button>
+
+    <div class="mobile-nav">
+        <button class="times"><img src="./images/times.svg" alt=""></button>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#certs">Certificates</a></li>
+        </ul>
+    </div>
+    <header>
+        <div class="container">
+            <nav id="main-nav" class="flex items-center justify-between">
+                <div class="left flex items-center">
+                    <div class="branding">
+                        <img src="./images/nv-high-resolution-logo-black-transparent.png" width="100" alt="">
+                    </div>
+                    <div>
+                        <a href="#">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skill">Skills</a>
+                        <a href="#certs">Certificates</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="hero flex items-center justify-between">
+                <div class="left flex-1 flex justify-center">
+                    <img src="./images/profile.JPG" alt="">
+                </div>
+                <div class="right flex-1">
+                    <h6>Navaphon Vongdid</h6>
+                    <h1>I would like to be a <span>Developer</span></h1>
+                    <p>Because in Programming,
+                        there are always new challenges,
+                        so I'm interested in developing programs myself.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="etc">
+        <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev"><img src="images/arrow-left.svg" alt=""></button>
+            <button class="carousel-button next" data-carousel-button="next"><img src="images/arrow-right.svg" alt=""></button>
+            <ul id ="image-slide" data-slides>
+                <!-- gen by js-->
+            </ul>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container flex items-center about-inner-wrap">
+            <div class="flex-1">
+                <img class="about-me-img" src="./images/profile2.jpg" alt="">
+            </div>
+            <div class="flex-1 right">
+                <h1>About <span>Me</span></h1>
+                <h3>Hello! I’m Navaphon Vongdid.</h3>
+                <p>My nickname is Copter, born on October 31, 2005, and standing 174 cm tall. Currently, I'm exploring
+                    the realms of English and Math at Wat Suthiwararam School, where each subject offers a unique
+                    challenge and perspective.
+                    When not studying, I enjoy savoring my favorite dish, noodles, and getting lost in the rhythms of
+                    'Double Take' by Dhruv – a song that truly resonates with me.
+                    Welcome to my slice of the world!</p>
+                <div class="social" style="color: white">
+                    <a href="#"><img src="./images/website.svg" alt=""></a>
+                    <a href="https://www.facebook.com/navaphon.vongdid"><img src="./images/facebook.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skill" class="skills">
+        <div class="container">
+            <h1 class="section-heading"><span>My </span>Skills</h1>
+            <p>Here are the skills that I'm familiar with</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="images/premire-pro.svg" alt="">
+                    <h2>Adobe Premiere Pro</h2>
+                    <p>Beginner skills in video editing and storytelling with Premiere Pro.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="images/photoshop.svg" alt="">
+                    <h2>Adobe Protoshop</h2>
+                    <p>Basic knowledge of photo manipulation and graphic design in Photoshop.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="images/python.svg" alt="">
+                    <h2>Python</h2>
+                    <p>Introductory experience in Python programming for simple projects.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="images/cplusplus.svg" alt="">
+                    <h2>C++</h2>
+                    <p>Fundamental understanding of C++ for basic programming tasks.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="images/html.svg" alt="">
+                    <h2>HTML5</h2>
+                    <p>Familiar with HTML5 basics for creating simple web pages.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="images/css.svg" alt="">
+                    <h2>CSS</h2>
+                    <p>Starting knowledge in CSS for basic web design and styling.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="images/js.svg" alt="">
+                    <h2>Javascript</h2>
+                    <p>Learning Javascript for adding interactivity to web pages.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="images/wordpress.svg" alt="">
+                    <h2>WordPress</h2>
+                    <p>Basic skills in using WordPress for website creation and blogging.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="images/ms.svg" alt="">
+                    <h2>Microsoft Office</h2>
+                    <p>Competent with Microsoft Office tools for school and personal projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certs" class="certs">
+        <div class="container">
+            <h1 class="section-heading"><span>My</span> Certificates</h1>
+            <p>My certificates that I have so far.</p>
+            <div class="card-wrapper" id="certsImageContainer">
+                <!--                gen by js-->
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h1 class="section-heading">Contact <span>Me</span></h1>
+            <p>Here are my contacts.</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="./images/phone-2.svg" alt="">
+                    <h1>Call Me On</h1>
+                    <h6>061-496-6659</h6>
+                </div>
+                <div class="card">
+                    <img src="./images/msg.svg" alt="">
+                    <h1>Email Me At</h1>
+                    <h6>Navaphonvongdid@gmail.com</h6>
+                </div>
+                <div class="card">
+                    <img src="./images/facebook.svg" alt="">
+                    <h1>My Facebook</h1>
+                    <h6><a href="https://www.facebook.com/navaphon.vongdid" >Navaphon Vongdid</a></h6>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <footer>
+        <img class="footer-logo" src="./images/nv-high-resolution-logo-black-transparent.png" width="100" alt="">
+        <div class="footer-socials">
+            <a href="https://www.facebook.com/navaphon.vongdid"><img style="width: 50px" src="./images/facebook.svg" alt=""></a>
+        </div>
+        <div class="copyright">
+            Copyright 2024 ©
+        </div>
+    </footer>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./js/app.js"></script>
+</body>
+
+</html>
